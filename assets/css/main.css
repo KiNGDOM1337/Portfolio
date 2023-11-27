@@ -68,7 +68,7 @@ body {
 }
 
 .main {
-    height: 1000px;
+    height: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,10 +87,12 @@ body {
 }
 
 .main h1.title {
+    text-align: center;
     font-size: 56px;
     font-weight: 600;
     color: #ffffff;
     margin-top: 8px;
+    line-height: 1.2;
 }
 
 .main p.subtitle {
@@ -154,7 +156,8 @@ body {
 .guarantee .item .info  {
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
+    justify-content: center;    
 }
 
 .guarantee .item .info h3 {
@@ -218,7 +221,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 130px;
     width: 90%;
 }
@@ -288,6 +291,7 @@ body {
     align-items: center;
     justify-content: center;
     background: linear-gradient(#101113 60%, #000000 100%);
+    margin-top: 100px;
 }
 
 .crossing .project {
@@ -337,7 +341,7 @@ footer {
 footer .me-ftr {
     margin-top: 40px;
     margin-left: 30px;
-    width: 40%;
+    width: 50%;
 }
 
 footer .me-ftr h4 {
@@ -389,26 +393,19 @@ footer .search {
 
     .navbar .hire-btn {
         margin-top: 10px;
-        
+        font-size: 16px;
+        padding: 4px 20px;       
     }
-
-
-    .guarantee {
-        flex-wrap: wrap;
-        width: 100%;
-        margin-top: 0;
-    }
-    
+ 
 
     .main {
-        margin-top: -70px;
+        margin-top: 0;
         margin-bottom: -100px;
     }
 
     .main h1.title {
-        text-align: center;
         font-size: 48px;
-        line-height: 1.2;
+        
     }
 
     .main p.subtitle {
@@ -418,6 +415,13 @@ footer .search {
 
     .main i {
         margin-top: 20px;
+    }
+
+
+    .guarantee {
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: -80px;
     }
 
 
@@ -473,4 +477,6 @@ footer .search {
     .separator {
         margin-top: 80px;
     }
+
+    
 }
