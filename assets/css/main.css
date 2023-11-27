@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     height: 100vh;
     background: #101113;
@@ -19,7 +23,7 @@ body {
     height: 80px;
     padding: 0 50px;
 }
-.navbar h2 {
+.navbar h4 {
     color: #ffb742;
     font-size: 32px;
     font-weight: 600;
@@ -71,18 +75,18 @@ body {
     justify-content: center;
 }
 
-.main h4 {
+.main h2 {
     font-size: 36px;
     color: #ffffff;
     font-weight: 600;
 }
 
-.main h4 span {
+.main h2 span {
     color: #ffb742;
     text-decoration: underline;
 }
 
-.main p.title {
+.main h1.title {
     font-size: 56px;
     font-weight: 600;
     color: #ffffff;
@@ -375,8 +379,8 @@ footer ul li a:hover {
 footer .search {
     width: 25%;
 }
-
-@media screen and (max-width: 583px) {
+/* 583px */
+@media screen and (max-width: 500px) {
     .navbar {
         flex-wrap: wrap;
         justify-content: center;
@@ -392,20 +396,29 @@ footer .search {
         flex-wrap: wrap;
     }
     
-
-    .main .title {
-        text-align: center;
+    .main {
+        margin-top: -50px;
     }
 
-    .main .subtitle {
+    .main h1.title {
+        text-align: center;
+        font-size: 52px;
+    }
+
+    .main p.subtitle {
         text-align: center;
         padding: 0 30px;
+    }
+
+    .main i {
+        margin-top: 20px;
     }
 
 
     .about {
         flex-wrap: wrap;
         padding: 0 40px;
+        justify-content: center;
     }
 
 
@@ -434,7 +447,7 @@ footer .search {
     }
 
     .crossing {
-        margin-top: 50px;
+        margin-top: 80px;
     }
 
     .crossing .project {
@@ -447,7 +460,7 @@ footer .search {
     }
 
     footer {
-        gap: 90px;
+        gap: 50px;
     }
 
     .separator {
