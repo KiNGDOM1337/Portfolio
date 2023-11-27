@@ -379,3 +379,13 @@ footer ul li a:hover {
 footer .search {
     width: 25%;
 }
+
+@media screen and (max-width: 835px) {
+    .guarantee {
+        flex-wrap: wrap
+    }
+
+    .guarantee .item {
+        flex-basis: 100%;
+    }
+}
