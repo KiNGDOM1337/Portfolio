@@ -496,11 +496,14 @@ footer .search {
         padding: 50px 30px 50px 30px;
     }
 
+    footer {
+        height: 400px;
+    }
 
     footer .me-ftr {
-        width: 15%;
+        width: 30%;
         margin-top: 40px;
-        margin-left: 50px;
+        margin-left: 20px;
     }
     
 
