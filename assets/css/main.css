@@ -411,7 +411,7 @@ footer .search {
     }
  
     #portfolio {
-        scroll-margin-top: -140px;
+        scroll-margin-top: -150px;
     }
 
     .main {
@@ -493,16 +493,17 @@ footer .search {
         flex-wrap: wrap;
         text-align: center;
         margin-top: 0;
+        padding: 50px 30px 50px 30px;
     }
 
 
     footer .me-ftr {
-        width: 40%;
+        width: 15%;
         margin-top: 40px;
         margin-left: 50px;
     }
     
-    
+
     .separator {
         margin-top: 80px;
     }
