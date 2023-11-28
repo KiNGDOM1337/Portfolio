@@ -340,12 +340,13 @@ footer {
     display: flex;
     justify-content: space-between;
     padding-bottom: 30px;
+    gap: 60px;
 }
 
 footer .me-ftr {
     margin-top: 40px;
-    margin-left: 30px;
-    width: 60%;
+    margin-left: 130px;
+    width: 15%;
 }
 
 footer .me-ftr h4 {
@@ -388,6 +389,14 @@ footer ul li a:hover {
 footer .search {
     width: 25%;
 }
+
+/* 
+– Smartphones: 320 x 480 Pixel
+– Tablets: 768 x 1.024 Pixel
+– Laptops: 1.366 x 768 Pixel
+– Desktop Computer: 1.920 x 1.080 Pixel 
+*/
+
 /* 583px */
 @media screen and (max-width: 500px) {
     .navbar {
@@ -401,6 +410,9 @@ footer .search {
         padding: 4px 20px;       
     }
  
+    #portfolio {
+        scroll-margin-top: -140px;
+    }
 
     .main {
         margin-top: -50px;
@@ -483,31 +495,15 @@ footer .search {
         margin-top: 0;
     }
 
-    footer {
-        gap: 25px;
-    }
 
+    footer .me-ftr {
+        width: 40%;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    
+    
     .separator {
         margin-top: 80px;
     }
 }
-
-/* .crossing {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(#101113 60%, #000000 100%);
-    margin-top: 100px;
-} */
-
-/* .crossing .project {
-    background: #ffb742;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 120px;
-    border-radius: 16px;
-    padding: 30px 50px;
-    margin-top: 80px;
-    margin-right: 40px;
-} */
