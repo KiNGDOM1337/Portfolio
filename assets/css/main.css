@@ -95,7 +95,6 @@ body {
     font-size: 56px;
     font-weight: 600;
     color: #ffffff;
-    margin-top: 8px;
     line-height: 1.2;
 }
 
@@ -106,14 +105,24 @@ body {
     margin-top: 20px;
 }
 
-.main i {
+/* .main i {
     font-size: 300px;
     margin-top: 100px;
     color: #101113;
     animation: infinite 10s ease-in-out fade;
+} */
+
+.main div {
+    background-image: url('../images/kingdom-high-resolution-logo-color-transparent.png');
+    background-size: contain;  
+    width: 800px;
+    height:500px;
+    margin-top: 50px;
+
+    /* animation: infinite 10s ease-in-out fade; */
 }
 
-@keyframes fade {
+/* @keyframes fade {
     from {
         color: #101113;
     }
@@ -125,7 +134,7 @@ body {
     to {
         color: #101113;
     }
-  }
+  } */
 
 
 .guarantee {
@@ -415,7 +424,7 @@ footer .search {
     }
 
     .main {
-        margin-top: -50px;
+        margin-top: -100px;
         margin-bottom: -100px;
     }
 
@@ -429,8 +438,11 @@ footer .search {
         padding: 0 30px;
     }
 
-    .main i {
-        margin-top: 20px;
+    .main div {
+        background-size: contain;  
+        width: 400px;
+        height: 250px;
+        margin-top: 50px;
     }
 
 
